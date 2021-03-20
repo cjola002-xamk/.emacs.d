@@ -25,7 +25,8 @@
 (use-package evil
 	     :ensure t
 	     :config
-	     (evil-mode 1))
+	     (evil-mode 1)
+	     (define-key evil-insert-state-map "jj" 'evil-normal-state))
 ;; VIM EVIL MODE THEMES
 
 (use-package doom-themes
@@ -51,6 +52,7 @@
   (which-key-mode))
 
 ;; CUSTOM KEYBINDINGS
+
 
 ;; ONNISTUU GENERAL PAKETIN AVULLA:
 ;; 
